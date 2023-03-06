@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    th {
+        background-color: palegreen;
+        color: blue;
+        text-align: left;
+    }
+
+</style>
+<body>
+<form action="form%20but%20google.html" method="get">
+    <table>
+        <tr>
+            <th colspan="4">Đăng ký học viên</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td colspan="2"><input type="text" id="yourname" name="hovaten"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td colspan="2"><input type="text" id="birthdate" name="ngaysinh"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <input type="radio" id="gender1" name="gender" value="male"/>
+                <label for="gender1">Nam</label>
+                <input type="radio" id="gender2" name="gender" value="female"/>
+                <label for="gender2">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td colspan="2"><textarea rows="5" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td><select>
+                <option value="chonlop">-- Chọn lớp --</option>
+                <option value="Lop10a1">Lớp 10A1</option>
+                <option value="Lop10a2">Lớp 10A2</option>
+                <option value="Lop10a3">Lớp 10A3</option>
+                <option value="Lop10a4">Lớp 10A4</option>
+                <option value="Lop10a5">Lớp 10A5</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="email"/></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td><input type="number" id="phonenumber"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button>Đăng ký</button><button type="reset">Nhập lại</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
